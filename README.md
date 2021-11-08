@@ -78,7 +78,7 @@ This schedule will be used to keep track of your progress throughout the week an
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
-[Priority Matrix](https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4 "Priority Matrix")
+[Priority Matrix](https://whimsical.com/49UgYuFsovtc1HTUjgmp3B "Priority Matrix")
 
 ## Timeframes
 
