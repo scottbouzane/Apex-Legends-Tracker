@@ -26,17 +26,21 @@ The apex api can be found at https://apexlegendsapi.com/
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Build with HTML, CSS, and JavaScript
+- Style using Flexbox 
+- Use Axios to make a request with Apex API
+- Implement responsive design using at least one media query/breakpoint
+- Deploy site to github pages
+- Make commits to github daily
+
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add second Apex API
+- Style with more CSS 
+- Add onto responsive design 
 
 ## Project Schedule
 
@@ -66,9 +70,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Pseudo Code | M | 3hrs|  |  |
+| HTML setup (Header,footer,div,tags etc.) | H | 2hrs|  |  |
+| CSS setup (Margins, color, images, text import) | H | 2hrs|  |  |
+| JS setup (adding function, button set up) | H | 3hrs|  |  |
+| API setup | H | 4hrs|  |  |
+| Debugging | H | 2.5hrs|  |  |
+| DOM manipulation to retreive data from search results | H | 3hrs|  |  |
+| CSS styling of search results | H | 3hrs|  |  |
+| Responsive design | H | 3.5hrs|  |  |
+| Debugging | H | 1.5hrs|  |  |
+| Working with API | H | 3hrs|  |  |
+| Create ability to to compare players | H | 3hrs|  |  |
+| Work on mobile version | H | 4hrs|  |  |
+| Debug mobile | H | 1.5hrs|  |  |
+| Post MVP work | H | 4hrs|  |  |
+| Total | H | 43hrs|  |  |
 
 ## Code Snippet
 
