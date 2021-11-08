@@ -10,7 +10,36 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+{
+"global": {
+"name": "HeyImLIFELINE",
+"uid": 1000575543540,
+"avatar": "https://secure.download.dm.origin.com/production/avatar/prod/userAvatar/37767448/416x416.JPEG",
+"platform": "PC",
+"level": 119,
+"toNextLevelPercent": 75,
+"internalUpdateCount": 3417,
+"bans": {
+"isActive": false,
+"remainingSeconds": 0,
+"last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
+},
+"rank": {
+"rankScore": 106,
+"rankName": "Bronze",
+"rankDiv": 4,
+"ladderPosPlatform": -1,
+"rankImg": "https://api.mozambiquehe.re/assets/ranks/bronze4.png",
+"rankedSeason": "season11_split_1"
+},
+"arena": {
+"rankScore": 0,
+"rankName": "Unranked",
+"rankDiv": 4,
+"ladderPosPlatform": -1,
+"rankImg": "https://api.mozambiquehe.re/assets/ranks/unranked4.png",
+"rankedSeason": "arenas11_split_1"
+},
 
 ## Wireframes
 
