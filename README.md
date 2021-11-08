@@ -6,40 +6,14 @@ Apex Legends Stat Tracker
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+The Final Version of this project will invoke an apex legends api that returns career statistics of specific players by their user ID
+
+Project inspiration [I'm an inline-style link with title](https://apex.tracker.gg "Apex Legends Tracker")
 
 ## API and Data Sample
 
-{
-"global": {
-"name": "HeyImLIFELINE",
-"uid": 1000575543540,
-"avatar": "https://secure.download.dm.origin.com/production/avatar/prod/userAvatar/37767448/416x416.JPEG",
-"platform": "PC",
-"level": 119,
-"toNextLevelPercent": 75,
-"internalUpdateCount": 3417,
-"bans": {
-"isActive": false,
-"remainingSeconds": 0,
-"last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
-},
-"rank": {
-"rankScore": 106,
-"rankName": "Bronze",
-"rankDiv": 4,
-"ladderPosPlatform": -1,
-"rankImg": "https://api.mozambiquehe.re/assets/ranks/bronze4.png",
-"rankedSeason": "season11_split_1"
-},
-"arena": {
-"rankScore": 0,
-"rankName": "Unranked",
-"rankDiv": 4,
-"ladderPosPlatform": -1,
-"rankImg": "https://api.mozambiquehe.re/assets/ranks/unranked4.png",
-"rankedSeason": "arenas11_split_1"
-},
+The apex api can be found at https://apexlegendsapi.com/
+
 
 ## Wireframes
 
