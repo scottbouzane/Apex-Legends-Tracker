@@ -33,7 +33,7 @@ The apex api can be found at https://apexlegendsapi.com/
 "value": 572655,
 "key": "gunshield_damage_blocked"
 }
-
+```
 ## Wireframes
 
 [My Wireframe](https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4 "Mock Website")
