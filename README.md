@@ -2,7 +2,7 @@
 
 ## Project Name
 
-The name of your project.
+Apex Legends Stat Tracker
 
 ## Project Description
 
@@ -14,7 +14,7 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4
 
 ### MVP/PostMVP
 
@@ -41,13 +41,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|Nov 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Nov 8| Project Approval | Incomplete
+|Nov 9| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Nov 10| Pseudocode / actual code | Incomplete
+|Nov 11| Initial Clickable Model  | Incomplete
+|Nov 12| MVP | Incomplete
+|Nov 15| Presentations | Incomplete
 
 ## Priority Matrix
 
