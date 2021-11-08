@@ -78,6 +78,8 @@ This schedule will be used to keep track of your progress throughout the week an
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
+[Priority Matrix](https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4 "Priority Matrix")
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
@@ -92,7 +94,7 @@ Include a full list of features that have been prioritized based on the `Time an
 | CSS styling of search results | H | 3hrs|  |  |
 | Responsive design | H | 3.5hrs|  |  |
 | Debugging | H | 1.5hrs|  |  |
-| Working with API | H | 3hrs|  |  |
+| Working with API for cross platform Data | H | 3hrs|  |  |
 | Create ability to to compare players | H | 3hrs|  |  |
 | Work on mobile version | H | 4hrs|  |  |
 | Debug mobile | H | 1.5hrs|  |  |
