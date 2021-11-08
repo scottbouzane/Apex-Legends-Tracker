@@ -8,7 +8,7 @@ Apex Legends Stat Tracker
 
 The Final Version of this project will invoke an apex legends api that returns career statistics of specific players by their user ID
 
-Project inspiration [I'm an inline-style link with title](https://apex.tracker.gg "Apex Legends Tracker")
+Project inspiration [Apex Legends Tracker](https://apex.tracker.gg "Apex Legends Tracker")
 
 ## API and Data Sample
 
@@ -17,7 +17,9 @@ The apex api can be found at https://apexlegendsapi.com/
 
 ## Wireframes
 
-https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4
+[My Wireframe](https://whimsical.com/getting-started-PiTFgVft4vYxVmTJRvPEL4 "Mock Website")
+
+
 
 ### MVP/PostMVP
 
