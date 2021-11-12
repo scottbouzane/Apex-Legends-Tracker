@@ -12,7 +12,7 @@ async function getData(event) {
     .then(res => {
       console.log("success")
       const apexHeading = document.querySelector('#apexHeader')
-      apexHeading.innerHTML = `Leaderboards: ${res.name}`
+      apexHeading.src = `Leaderboards: ${res.arena}`
 
     })
 }
