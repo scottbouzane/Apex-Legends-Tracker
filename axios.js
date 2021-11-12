@@ -13,6 +13,7 @@ async function getData(event) {
       console.log("success")
       const apexHeading = document.querySelector('#apexHeader')
       apexHeading.src = `Leaderboards: ${res.arena}`
+      return arena;
 
     })
 }
