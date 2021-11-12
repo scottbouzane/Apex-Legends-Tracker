@@ -1,0 +1,43 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+html {
+  background-image: url("https://images6.alphacoders.com/992/992033.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+p {
+  text-align: center;
+  color: whitesmoke;
+  
+}
+
+form {
+  text-align: center;
+}
+
+header {
+  text-transform: capitalize;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  
+}
+
+
+
+
+
+
+
