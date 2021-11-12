@@ -1,18 +1,37 @@
-const API_KEY = "JYf8OElOW4fh8NLAImbE"
-const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${textInput}&auth=${API_KEY}`;
-const BASE_URL = '${DOMAIN}?apikey=${API_KEY}&s=';
+let searchForum = document.querySelector('#searchbar');
 
-const button = document.querySelector("#searchButton");
+async function getData(apexName) {
+  // console.log("hi");
+  const API_KEY = "JYf8OElOW4fh8NLAImbE";
+  const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${apexName}&auth=${API_KEY}`;
+  try {
+    const response = await axios.get(DOMAIN);
+    let apex = response.data.global;
+    console.log(apex);
+    showCharacterData(apex);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    console.log("done");
+  }
+}
 
-const getData = () => {
-  axios.get(`https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${textInput}&auth=${API_KEY}`).then(response => {
-    console.log(response);
-  });
-};
+function showCharacterData(character) {
+  const apexData = document.querySelector('#apex-data')
+  let characterName = document.createElement("h2")
+  characterName.innerText = character.name
+  apexData.appendChild(characterName)
 
-const sendData = () => { };
+}
 
-button.addEventListener("click", getData)
+searchForum.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const searchInput = document.querySelector('#inputBar')
+  let apexName = searchInput.value
+  getData(apexName)
+
+})
+
 
 
 

@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apex Legends Tracker</title>
   <link rel="stylesheet" href="/styles.css">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="axios.js"></script>
+
 
 </head>
 
@@ -19,11 +18,19 @@
   <p>Enter player username to view career stats</p>
 
   <form id="searchbar">
+
     <input type="text" name="inputBar" placeholder="Enter Username" id='inputBar'>
 
-    <input type="button" name="submitButton" value="Click Here" id="searchButton">
+    <input type="submit" name="submitButton" value="Click Here" id="searchButton">
 
   </form>
+
+  <div id='apex-data'>
+
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="axios.js"></script>
 
 
 </body>
