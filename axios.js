@@ -1,5 +1,5 @@
-const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${textInput}&auth=${API_KEY}`;
 const API_KEY = "JYf8OElOW4fh8NLAImbE"
+const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${textInput}&auth=${API_KEY}`;
 const BASE_URL = '${DOMAIN}?apikey=${API_KEY}&s=';
 
 const button = document.querySelector("#searchButton");
@@ -13,6 +13,7 @@ const getData = () => {
 const sendData = () => { };
 
 button.addEventListener("click", getData)
+
 
 
 
