@@ -66,9 +66,9 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Nov 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Nov 8| Project Approval | Incomplete
-|Nov 9| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Nov 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Nov 8| Project Approval | Complete
+|Nov 9| Core Application Structure (HTML, CSS, etc.) | Complete
 |Nov 10| Pseudocode / actual code | Incomplete
 |Nov 11| Initial Clickable Model  | Incomplete
 |Nov 12| MVP | Incomplete
