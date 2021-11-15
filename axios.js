@@ -1,6 +1,9 @@
 let searchForum = document.querySelector('#searchbar');
 
 async function getData(apexName) {
+
+
+
   // console.log("hi");
   const API_KEY = "JYf8OElOW4fh8NLAImbE";
   const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${apexName}&auth=${API_KEY}`;
@@ -18,9 +21,13 @@ async function getData(apexName) {
 
 function showCharacterData(character) {
   const apexData = document.querySelector('#apex-data')
+  apexData.innerHTML = ''
+
   let characterName = document.createElement("h2")
   characterName.innerText = character.name
   apexData.appendChild(characterName)
+
+
 
   let characterRank = document.createElement("h2")
   characterRank.innerText = character.rank.rankName
@@ -34,13 +41,19 @@ function showCharacterData(character) {
   characterBans.innerText = character.bans.last_banReason
   apexData.appendChild(characterBans)
 
+
 }
+
+
 
 searchForum.addEventListener("submit", (e) => {
   e.preventDefault();
   const searchInput = document.querySelector('#inputBar')
   let apexName = searchInput.value
   getData(apexName)
+
+
+
 
   // const consoleInput = document.querySelector('#inputConsole')
   // let consoleName = consoleInput.value

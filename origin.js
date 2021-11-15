@@ -18,6 +18,8 @@ async function getData(apexName) {
 
 function showCharacterData(character) {
   const apexData = document.querySelector('#apex-data')
+  apexData.innerHTML = ''
+
   let characterName = document.createElement("h2")
   characterName.innerText = character.name
   apexData.appendChild(characterName)
