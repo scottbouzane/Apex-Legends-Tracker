@@ -84,30 +84,35 @@ Include a full list of features that have been prioritized based on the `Time an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudo Code | M | 3hrs| 3hrs |
-| HTML setup (Header,footer,div,tags etc.) | H | 2hrs|  |  |
-| CSS setup (Margins, color, images, text import) | H | 2hrs|  |  |
-| JS setup (adding function, button set up) | H | 3hrs|  |  |
-| API setup | H | 4hrs|  |  |
-| Debugging | H | 2.5hrs|  |  |
-| DOM manipulation to retreive data from search results | H | 3hrs|  |  |
-| CSS styling of search results | H | 3hrs|  |  |
-| Responsive design | H | 3.5hrs|  |  |
-| Debugging | H | 1.5hrs|  |  |
-| Working with API for cross platform Data | H | 3hrs|  |  |
-| Create ability to to compare players | H | 3hrs|  |  |
-| Work on mobile version | H | 4hrs|  |  |
-| Debug mobile | H | 1.5hrs|  |  |
-| Post MVP work | H | 4hrs|  |  |
+| Pseudo Code | M | 3hrs| 3hrs | 3hrs |
+| HTML setup (Header,footer,div,tags etc.) | H | 2hrs| 2hrs | 2hrs |
+| CSS setup (Margins, color, images, text import) | H | 2hrs| 3hrs | 3hrs |
+| JS setup (adding function, button set up) | H | 3hrs| 4hrs | 4hrs |
+| API setup | H | 4hrs| 5 | 5 |
+| Debugging | H | 2.5hrs| 1.5 | 1.5 |
+| DOM manipulation to retreive data from search results | H | 3hrs| 2hrs | 2hrs |
+| CSS styling of search results | H | 3hrs| 2hrs | 2hrs |
+| Responsive design | H | 3.5hrs| 2hrs | 2hrs |
+| Debugging | H | 1.5hrs| 2hrs | 2hrs |
+| Working with API for cross platform Data | H | 3hrs| 3.5hrs | 3.5hrs |
+| Create ability to to compare players | H | 3hrs| 0hrs | 0hrs |
+| Work on mobile version | H | 4hrs| 0hrs | 0hrs |
+| Debug mobile | H | 1.5hrs| 0hrs | 0hrs |
+| Post MVP work | H | 4hrs| 3hrs | 3hrs |
 | Total | H | 43hrs|  |  |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This function is used to return data from the apex api while removing previous searched data to avoid clutter.   
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function showCharacterData(character) {
+  const apexData = document.querySelector('#apex-data')
+  apexData.innerHTML = ''
+
+  let characterName = document.createElement("h2")
+  characterName.innerText = character.name
+  apexData.appendChild(characterName)
 }
 ```
 
