@@ -69,9 +69,9 @@ This schedule will be used to keep track of your progress throughout the week an
 |Nov 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Nov 8| Project Approval | Complete
 |Nov 9| Core Application Structure (HTML, CSS, etc.) | Complete
-|Nov 10| Pseudocode / actual code | Incomplete
-|Nov 11| Initial Clickable Model  | Incomplete
-|Nov 12| MVP | Incomplete
+|Nov 10| Pseudocode / actual code | Complete
+|Nov 11| Initial Clickable Model  | Complete
+|Nov 12| MVP | I think
 |Nov 15| Presentations | Incomplete
 
 ## Priority Matrix
@@ -84,7 +84,7 @@ Include a full list of features that have been prioritized based on the `Time an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudo Code | M | 3hrs|  |  |
+| Pseudo Code | M | 3hrs| 3hrs |
 | HTML setup (Header,footer,div,tags etc.) | H | 2hrs|  |  |
 | CSS setup (Margins, color, images, text import) | H | 2hrs|  |  |
 | JS setup (adding function, button set up) | H | 3hrs|  |  |
