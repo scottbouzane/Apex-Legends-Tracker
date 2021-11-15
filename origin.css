@@ -4,6 +4,11 @@ body {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(8, 65, 83);
+  }
+}
 
 html {
   background-image: url("https://cdn.charlieintel.com/wp-content/uploads/2021/04/29132426/apex-legends-wraith-buff-new-hop-ups.jpg");

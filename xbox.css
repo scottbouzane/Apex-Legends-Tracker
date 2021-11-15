@@ -4,6 +4,12 @@ body {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(8, 65, 83);
+  }
+}
+
 
 html {
   background-image: url("https://images5.alphacoders.com/115/1150928.jpg");

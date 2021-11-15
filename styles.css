@@ -5,6 +5,12 @@ body {
   align-content: center;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(8, 65, 83);
+  }
+}
+
 
 html {
   background-image: url("https://images6.alphacoders.com/992/992033.jpg");
