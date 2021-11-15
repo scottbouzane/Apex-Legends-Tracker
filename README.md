@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Apex Legends Stat Tracker
+[Apex Legends Stat Tracker](https://scottbouzane.github.io/Apex-Legends-Tracker/)
 
 ## Project Description
 
