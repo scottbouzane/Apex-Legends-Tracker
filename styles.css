@@ -2,6 +2,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-content: center;
 }
 
 
@@ -9,7 +10,8 @@ html {
   background-image: url("https://images6.alphacoders.com/992/992033.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+   resize: both;
+  overflow: scroll;
 }
 
 
@@ -37,14 +39,18 @@ header {
 
 #apex-data {
   text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: aquamarine;
 color: black;
-flex-flow: row;
+gap: 10px;
+
 }
 
 h2 {
-  background-color: whitesmoke;
+  color: aliceblue;
   background-position: center;
   flex-direction: row;
+  align-content: center;
 }
 
 #apexHeader {

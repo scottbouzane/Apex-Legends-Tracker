@@ -37,14 +37,18 @@ header {
 
 #apex-data {
   text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: aquamarine;
 color: black;
-flex-flow: row;
+gap: 10px;
+
 }
 
 h2 {
-  background-color: whitesmoke;
+  color: aliceblue;
   background-position: center;
   flex-direction: row;
+  align-content: center;
 }
 
 #apexHeader {
