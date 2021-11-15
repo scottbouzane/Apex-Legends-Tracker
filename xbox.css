@@ -42,7 +42,7 @@ flex-flow: row;
 }
 
 h2 {
-  background-color: thistle;
+  background-color: whitesmoke;
   background-position: center;
   flex-direction: row;
 }
@@ -53,4 +53,9 @@ h2 {
 
 a {
   color: white;
+}
+
+p {
+  font-size: x-large;
+  font-style: oblique;
 }
