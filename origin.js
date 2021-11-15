@@ -32,9 +32,9 @@ function showCharacterData(character) {
   characterLevel.innerText = character.level
   apexData.appendChild(characterLevel)
 
-  let characterBans = document.createElement("h2")
-  characterBans.innerText = character.bans.last_banReason
-  apexData.appendChild(characterBans)
+  // let characterBans = document.createElement("h2")
+  // characterBans.innerText = character.bans.last_banReason
+  // apexData.appendChild(characterBans)
 
 }
 
