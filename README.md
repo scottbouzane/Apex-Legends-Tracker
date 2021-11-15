@@ -71,7 +71,7 @@ This schedule will be used to keep track of your progress throughout the week an
 |Nov 9| Core Application Structure (HTML, CSS, etc.) | Complete
 |Nov 10| Pseudocode / actual code | Complete
 |Nov 11| Initial Clickable Model  | Complete
-|Nov 12| MVP | I think
+|Nov 12| MVP | Incomplete
 |Nov 15| Presentations | Incomplete
 
 ## Priority Matrix
