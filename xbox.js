@@ -3,7 +3,7 @@ let searchForum = document.querySelector('#searchbar');
 async function getData(apexName) {
   // console.log("hi");
   const API_KEY = "JYf8OElOW4fh8NLAImbE";
-  const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=PS4&player=${apexName}&auth=${API_KEY}`;
+  const DOMAIN = `https://api.mozambiquehe.re/bridge?version=5&platform=X1&player=${apexName}&auth=${API_KEY}`;
   try {
     const response = await axios.get(DOMAIN);
     let apex = response.data.global;
